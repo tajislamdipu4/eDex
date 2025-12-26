@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eDex - Education Platform</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600&family=PT+Serif:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+</head>
+<body>
+        
+    <!-- Navbar Section -->
+    <header class="header">
+      <style>
+        .header {
+            background-color: #6176F7;
+            padding: 24px 0;
+        }
+        .header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+        .logo {
+            font-family: 'PT Serif', serif;
+            font-style: italic;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 40px;
+            letter-spacing: 0.1px;
+            flex-shrink: 0;
+        }
+        .logo-e {
+            color: #FFC27A;
+        }
+        .logo-dex {
+            color: white;
+        }
+        .navbar {
+            display: flex;
+            gap: 8px;
+            flex: 1;
+            justify-content: center;
+        }
+        .nav-link {
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            color: white;
+            transition: background-color 0.3s;
+        }
+        .nav-link.active {
+            color: #FFC27A;
+        }
+       
+        .auth-buttons {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            flex-shrink: 0;
+        }
+        .btn-login {
+            padding: 12px 24px;
+            border-radius: 8px;
+            background: transparent;
+            border: none;
+            color: white;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            cursor: pointer;
+        }
+        
+        .btn-signup {
+            padding: 12px 24px;
+            background: linear-gradient(90deg, #FFC27A 100%, #FFA337 100%);
+            border-radius: 100px;
+            border: none;
+            color: white;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+        
+      </style>
+      <div class="container">
+        <div class="logo">
+          <span class="logo-e">e</span><span class="logo-dex">Dex</span>
+        </div>
+        <div class="navbar">
+          <a href="#" class="nav-link active">Home</a>
+          <a href="#" class="nav-link">About</a>
+          <a href="#" class="nav-link">Course</a>
+          <a href="#" class="nav-link">Blog</a>
+          <a href="#" class="nav-link">Contact</a>
+        </div>
+        <div class="auth-buttons">
+          <button class="btn-login">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path d="M19.5 8.25H4.5C4.08579 8.25 3.75 8.58579 3.75 9V19.5C3.75 19.9142 4.08579 20.25 4.5 20.25H19.5C19.9142 20.25 20.25 19.9142 20.25 19.5V9C20.25 8.58579 19.9142 8.25 19.5 8.25Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M8.625 8.25V4.875C8.625 3.97989 8.98058 3.12145 9.61351 2.48851C10.2465 1.85558 11.1049 1.5 12 1.5C12.8951 1.5 13.7535 1.85558 14.3865 2.48851C15.0194 3.12145 15.375 3.97989 15.375 4.875V8.25" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M12 15.375C12.6213 15.375 13.125 14.8713 13.125 14.25C13.125 13.6287 12.6213 13.125 12 13.125C11.3787 13.125 10.875 13.6287 10.875 14.25C10.875 14.8713 11.3787 15.375 12 15.375Z" fill="white"/>
+            </svg>
+            Login
+          </button>
+          <button class="btn-signup">Sign up for Free</button>
+        </div>
+      </div>
+    </header>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="badge">START TO SUCCESS</div>
+                <h1 class="hero-title">Access To 5000+ Courses <br/>from 300 Instructors <br/>& Institutions</h1>
+                <p class="hero-subtitle">Various versions have evolved over the years, sometimes by accident,</p>
+                
+                <div class="search-container">
+                    <div class="search-box">
+                        <input type="text" placeholder="What do want to learn?" class="search-input">
+                        <button class="search-btn">
+                            <svg viewBox="0 0 24 24">
+                                <circle cx="10" cy="10" r="6" stroke="white" stroke-width="2.5" fill="none"/>
+                                <path d="M15 15l5 5" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="Saly-10.png" alt="Students learning together">
+            </div>
+        </div>
+        
+      
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="stats-container">
+            <div class="stat-item">
+                <div class="stat-icon instructor">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="45" height="44" viewBox="0 0 45 44" fill="none">
+                        <path d="M1.5 16.5L22.125 5.5L42.75 16.5L22.125 27.5L1.5 16.5Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M32.4375 41.25V22L22.125 16.5" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M37.9375 19.0609V28.4453C37.9363 28.7374 37.8397 29.021 37.6625 29.2531C36.5109 30.8 31.6297 36.4375 22.125 36.4375C12.6203 36.4375 7.73906 30.8 6.5875 29.2531C6.41029 29.021 6.31373 28.7374 6.3125 28.4453V19.0609" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div class="stat-info">
+                    <div class="stat-number">300</div>
+                    <div class="stat-label">Instructor</div>
+                </div>
+            </div>
+            
+            <div class="stat-item">
+                <div class="stat-icon student">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
+                        <path d="M15.125 27.5C20.061 27.5 24.0625 23.4985 24.0625 18.5625C24.0625 13.6265 20.061 9.625 15.125 9.625C10.189 9.625 6.1875 13.6265 6.1875 18.5625C6.1875 23.4985 10.189 27.5 15.125 27.5Z" stroke="white" stroke-width="3" stroke-miterlimit="10"/>
+                        <path d="M26.7095 9.95156C27.4995 9.73728 28.3143 9.62749 29.1329 9.625C31.5033 9.625 33.7766 10.5666 35.4527 12.2427C37.1288 13.9188 38.0704 16.1921 38.0704 18.5625C38.0704 20.9329 37.1288 23.2062 35.4527 24.8823C33.7766 26.5584 31.5033 27.5 29.1329 27.5" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M2.75 33.9281C4.14553 31.9422 5.9985 30.3214 8.15239 29.2025C10.3063 28.0835 12.6978 27.4994 15.125 27.4994C17.5522 27.4994 19.9437 28.0835 22.0976 29.2025C24.2515 30.3214 26.1045 31.9422 27.5 33.9281" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M29.1328 27.5C31.5602 27.4985 33.9522 28.0819 36.1063 29.2009C38.2605 30.3198 40.1132 31.9413 41.5078 33.9281" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div class="stat-info">
+                    <div class="stat-number">20,000+</div>
+                    <div class="stat-label">Student</div>
+                </div>
+            </div>
+            
+            <div class="stat-item">
+                <div class="stat-icon video">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
+                        <path d="M4.125 10.3125H26.125C27.5837 10.3125 28.9826 10.892 30.0141 11.9234C31.0455 12.9549 31.625 14.3538 31.625 15.8125V32.3125C31.625 32.6772 31.4801 33.0269 31.2223 33.2848C30.9644 33.5426 30.6147 33.6875 30.25 33.6875H8.25C6.79131 33.6875 5.39236 33.108 4.36091 32.0766C3.32946 31.0451 2.75 29.6462 2.75 28.1875V11.6875C2.75 11.3228 2.89487 10.9731 3.15273 10.7152C3.41059 10.4574 3.76033 10.3125 4.125 10.3125V10.3125Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M31.625 19.25L41.25 13.75V30.25L31.625 24.75" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div class="stat-info">
+                    <div class="stat-number">10,000+</div>
+                    <div class="stat-label">Video</div>
+                </div>
+            </div>
+            
+            <div class="stat-item">
+                <div class="stat-icon users">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
+                        <path d="M22 30.9375C25.797 30.9375 28.875 27.8595 28.875 24.0625C28.875 20.2655 25.797 17.1875 22 17.1875C18.203 17.1875 15.125 20.2655 15.125 24.0625C15.125 27.8595 18.203 30.9375 22 30.9375Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M33.6875 19.9375C35.2889 19.9348 36.8688 20.3064 38.3012 21.0226C39.7336 21.7388 40.9788 22.7798 41.9375 24.0625" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M2.0625 24.0625C3.02122 22.7798 4.26642 21.7388 5.69879 21.0226C7.13116 20.3064 8.71106 19.9348 10.3125 19.9375" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12.1001 37.125C13.0056 35.2706 14.4137 33.7078 16.164 32.6147C17.9143 31.5215 19.9365 30.9419 22.0001 30.9419C24.0637 30.9419 26.0859 31.5215 27.8362 32.6147C29.5865 33.7078 30.9946 35.2706 31.9001 37.125" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M10.3125 19.9375C9.26857 19.9386 8.24593 19.6425 7.36403 19.084C6.48214 18.5254 5.77741 17.7274 5.33219 16.7832C4.88698 15.839 4.71966 14.7876 4.84979 13.7519C4.97992 12.7161 5.40213 11.7388 6.06707 10.9341C6.73202 10.1294 7.61225 9.5305 8.60491 9.20747C9.59757 8.88443 10.6617 8.85056 11.6728 9.10982C12.684 9.36908 13.6006 9.91076 14.3153 10.6716C15.0301 11.4324 15.5136 12.3809 15.7093 13.4062" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M28.2905 13.4062C28.4863 12.3809 28.9698 11.4324 29.6845 10.6716C30.3993 9.91076 31.3158 9.36908 32.327 9.10982C33.3382 8.85056 34.4023 8.88443 35.395 9.20747C36.3876 9.5305 37.2678 10.1294 37.9328 10.9341C38.5977 11.7388 39.0199 12.7161 39.1501 13.7519C39.2802 14.7876 39.1129 15.839 38.6677 16.7832C38.2225 17.7274 37.5177 18.5254 36.6358 19.084C35.7539 19.6425 34.7313 19.9386 33.6874 19.9375" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div class="stat-info">
+                    <div class="stat-number">1,00,000+</div>
+                    <div class="stat-label">User's</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section class="courses">
+        <div class="section-header">
+            <h2 class="section-title">Most <span class="highlight">Popular Course</span></h2>
+            <p class="section-subtitle">Various versions have evolved over the years, sometimes by accident,</p>
+        </div>
+        
+        <div class="course-container">
+            <!-- Course 1 -->
+            <div class="course-card">
+                <div class="course-tag html">HTML</div>
+                <div class="course-image">
+                    <img src="1.png" alt="HTML Course">
+                </div>
+                <h3 class="course-title">Various versions have evolved daf</h3>
+                <div class="course-rating">
+                    <div class="stars">
+                        <span class="star"></span>
+                        <span class="star"></span>
+                        <span class="star"></span>
+                        <span class="star"></span>
+                        <span class="star"></span>
+                    </div>
+                    <span class="rating-count">(15)</span>
+                </div>
+                <div class="course-footer">
+                    <div class="course-price">$ 500</div>
+                    <button class="add-to-cart">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M6 18L18 6" stroke="url(#paint0_linear_70_628)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M8.25 6H18V15.75" stroke="url(#paint1_linear_70_628)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <defs>
+                                        <linearGradient id="paint0_linear_70_628" x1="12" y1="6" x2="12" y2="18" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#FFC27A"/>
+                                        <stop offset="1" stop-color="#FFA337"/>
+                                        </linearGradient>
+                                        <linearGradient id="paint1_linear_70_628" x1="13.125" y1="6" x2="13.125" y2="15.75" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#FFC27A"/>
+                                        <stop offset="1" stop-color="#FFA337"/>
+                                        </linearGradient>
+                                    </defs>
+                            </svg>                          
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Course 2 -->
+            <div class="course-card">
+                <div class="course-tag design">Design</div>
+                <div class="course-image">
+                    <div class="image-placeholder design-bg">
+                        <img src="2.png" alt="Design Course">
+                    </div>
+                </div>
+                <h3 class="course-title">Various versions have evolved daf</h3>
+                <div class="course-rating">
+                    <div class="stars">
+                        <span class="star"></span>
+                        <span class="star"></span>
+                        <span class="star"></span>
+                        <span class="star"></span>
+                        <span class="star"></span>
+                    </div>
+                    <span class="rating-count">(20)</span>
+                </div>
+                <div class="course-footer">
+                    <div class="course-price">$ 500</div>
+                    <button class="add-to-cart active">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                             <path d="M6 18L18 6" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                             <path d="M8.25 6H18V15.75" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Course 3 -->
+            <div class="course-card">
+                <div class="course-tag business">Business</div>
+                <div class="course-image">
+                    <div class="image-placeholder business-bg">
+                        <img src="3.png" alt="Business Course">
+                    </div>
+                </div>
+                <h3 class="course-title">Various versions have evolved daf</h3>
+                <div class="course-rating">
+                    <div class="stars">
+                        <span class="star"></span>
+                        <span class="star"></span>
+                        <span class="star"></span>
+                        <span class="star"></span>
+                        <span class="star empty"></span>
+                    </div>
+                    <span class="rating-count">(102)</span>
+                </div>
+                <div class="course-footer">
+                    <div class="course-price">$ 500</div>
+                    <button class="add-to-cart">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M6 18L18 6" stroke="url(#paint0_linear_70_781)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8.25 6H18V15.75" stroke="url(#paint1_linear_70_781)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <defs>
+                                <linearGradient id="paint0_linear_70_781" x1="12" y1="6" x2="12" y2="18" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#FFC27A"/>
+                                <stop offset="1" stop-color="#FFA337"/>
+                                </linearGradient>
+                                <linearGradient id="paint1_linear_70_781" x1="13.125" y1="6" x2="13.125" y2="15.75" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#FFC27A"/>
+                                <stop offset="1" stop-color="#FFA337"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Course 4 -->
+            <div class="course-card">
+                <div class="course-tag business">Business</div>
+                <div class="course-image">
+                    <div class="image-placeholder purple-bg">
+                        <img src="4.png" alt="Business Course 2">
+                    </div>
+                </div>
+                <h3 class="course-title">Various versions have evolved daf</h3>
+                <div class="course-rating">
+                    <div class="stars">
+                        <span class="star"></span>
+                        <span class="star"></span>
+                        <span class="star"></span>
+                        <span class="star"></span>
+                        <span class="star empty"></span>
+                    </div>
+                    <span class="rating-count">(102)</span>
+                </div>
+                <div class="course-footer">
+                    <div class="course-price">$ 500</div>
+                    <button class="add-to-cart">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M6 18L18 6" stroke="url(#paint0_linear_70_781)" stroke-width="1.5" stroke-linecap=
